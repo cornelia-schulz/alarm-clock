@@ -1,1 +1,1 @@
-#end,#timerControls{display:none}
+#container{width:900px;margin:0 auto;background:url(../../images/alarm.jpg)no-repeat;background-size:900px 100%;padding:20px}input{width:30px}button:hover{color:#1cb69e;border:1px solid #1cb69e}#btnSetTimer{margin-bottom:15px;width:100px;height:30px}#timer{margin-bottom:15px;line-height:20px;font-size:1.8em}#timerControls>button{height:30px;width:70px}#end,#timerControls{display:none}
