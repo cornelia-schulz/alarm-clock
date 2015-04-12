@@ -73,7 +73,7 @@ var startTimer = function(){
 
 var startCountdown = function(){
     if(timerId){
-        return
+        return;
     }
     timerId = setInterval(countdown, 1000);
     countdown();
