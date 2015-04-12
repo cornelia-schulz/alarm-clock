@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Alarm Clock</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="js/moment.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Alarm Clock</h1>
+
+        <div id="JsDate"></div>
+
+        <p>Enter the time when you want your alarm to go off.</p>
+
+            <label for="days">Days</label>
+            <input type="text" id="days" name="days" value="00">
+            <label for="hours">Hours</label>
+            <input type="text" id="hours" name="hours" value="00">
+            <label for="minutes">Minutes</label>
+            <input type="text" id="minutes" name="minutes" value="00">
+            <label for="seconds">Seconds</label>
+            <input type="text" id="seconds" name="seconds" value="00"><br/>
+            <br/>
+            <button type="button" id="btnSetTimer">Set Alarm</button>
+        <div id="timerContainer">
+            <div id="timer"></div>
+            <div id="timerControls">
+                <button type="button" id="btnStartTimer">Start</button>
+                <button type="button" id="btnStopTimer">Stop</button>
+                <button type="button" id="btnResetTimer">Reset</button>
+            </div>
+        </div>
+        <div id="end">
+            <audio id="timeUp" src="fanfare2.wav" preload="auto" ></audio>
+        </div>
+
+
+    </div>
+</body>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
